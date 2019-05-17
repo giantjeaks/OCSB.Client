@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="putUpdateData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReferenceNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NewStatus" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Note" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="deptfile" type="tns:ArrayOfDeptFile" />
+            <s:element minOccurs="1" maxOccurs="1" name="version" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfDeptFile">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="DeptFile" nillable="true" type="tns:DeptFile" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="DeptFile">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Base64Value" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DocTypeCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DocDetailText" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="putUpdateDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="putUpdateDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="putUpdateMasterData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mastername" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="datatable_xml" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="version" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="putUpdateMasterDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="putUpdateMasterDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="putNewVehicle">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="version" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="putNewVehicleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="putNewVehicleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="putNewContract">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CompanyNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CompanyTaxNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ContactNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ContactDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="BuyerNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RecieverNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CountryDestinationNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SugarTypeNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PackageTypeNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="QuotaTypeNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="QuotaYearNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ContractQuantity" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="ValuePerUnit" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="CurrencyNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ShipmentDateStart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ShipmentDateEnd" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="version" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="putNewContractResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="putNewContractResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="putUpdateDataSoapIn">
+    <wsdl:part name="parameters" element="tns:putUpdateData" />
+  </wsdl:message>
+  <wsdl:message name="putUpdateDataSoapOut">
+    <wsdl:part name="parameters" element="tns:putUpdateDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="putUpdateMasterDataSoapIn">
+    <wsdl:part name="parameters" element="tns:putUpdateMasterData" />
+  </wsdl:message>
+  <wsdl:message name="putUpdateMasterDataSoapOut">
+    <wsdl:part name="parameters" element="tns:putUpdateMasterDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="putNewVehicleSoapIn">
+    <wsdl:part name="parameters" element="tns:putNewVehicle" />
+  </wsdl:message>
+  <wsdl:message name="putNewVehicleSoapOut">
+    <wsdl:part name="parameters" element="tns:putNewVehicleResponse" />
+  </wsdl:message>
+  <wsdl:message name="putNewContractSoapIn">
+    <wsdl:part name="parameters" element="tns:putNewContract" />
+  </wsdl:message>
+  <wsdl:message name="putNewContractSoapOut">
+    <wsdl:part name="parameters" element="tns:putNewContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="putUpdateMasterDataHttpGetIn">
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="pass" type="s:string" />
+    <wsdl:part name="mastername" type="s:string" />
+    <wsdl:part name="datatable_xml" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="putUpdateMasterDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="putNewVehicleHttpGetIn">
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="pass" type="s:string" />
+    <wsdl:part name="id" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="putNewVehicleHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="putNewContractHttpGetIn">
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="pass" type="s:string" />
+    <wsdl:part name="CompanyNo" type="s:string" />
+    <wsdl:part name="CompanyTaxNo" type="s:string" />
+    <wsdl:part name="ContactNo" type="s:string" />
+    <wsdl:part name="ContactDate" type="s:string" />
+    <wsdl:part name="BuyerNo" type="s:string" />
+    <wsdl:part name="RecieverNo" type="s:string" />
+    <wsdl:part name="CountryDestinationNo" type="s:string" />
+    <wsdl:part name="SugarTypeNo" type="s:string" />
+    <wsdl:part name="PackageTypeNo" type="s:string" />
+    <wsdl:part name="QuotaTypeNo" type="s:string" />
+    <wsdl:part name="QuotaYearNo" type="s:string" />
+    <wsdl:part name="ContractQuantity" type="s:string" />
+    <wsdl:part name="ValuePerUnit" type="s:string" />
+    <wsdl:part name="CurrencyNo" type="s:string" />
+    <wsdl:part name="ShipmentDateStart" type="s:string" />
+    <wsdl:part name="ShipmentDateEnd" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="putNewContractHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="putUpdateMasterDataHttpPostIn">
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="pass" type="s:string" />
+    <wsdl:part name="mastername" type="s:string" />
+    <wsdl:part name="datatable_xml" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="putUpdateMasterDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="putNewVehicleHttpPostIn">
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="pass" type="s:string" />
+    <wsdl:part name="id" type="s:string" />
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="putNewVehicleHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="putNewContractHttpPostIn">
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="pass" type="s:string" />
+    <wsdl:part name="CompanyNo" type="s:string" />
+    <wsdl:part name="CompanyTaxNo" type="s:string" />
+    <wsdl:part name="ContactNo" type="s:string" />
+    <wsdl:part name="ContactDate" type="s:string" />
+    <wsdl:part name="BuyerNo" type="s:string" />
+    <wsdl:part name="RecieverNo" type="s:string" />
+    <wsdl:part name="CountryDestinationNo" type="s:string" />
+    <wsdl:part name="SugarTypeNo" type="s:string" />
+    <wsdl:part name="PackageTypeNo" type="s:string" />
+    <wsdl:part name="QuotaTypeNo" type="s:string" />
+    <wsdl:part name="QuotaYearNo" type="s:string" />
+    <wsdl:part name="ContractQuantity" type="s:string" />
+    <wsdl:part name="ValuePerUnit" type="s:string" />
+    <wsdl:part name="CurrencyNo" type="s:string" />
+    <wsdl:part name="ShipmentDateStart" type="s:string" />
+    <wsdl:part name="ShipmentDateEnd" type="s:string" />
+    <wsdl:part name="version" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="putNewContractHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="OCSBSoap">
+    <wsdl:operation name="putUpdateData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">แจ้งข้อมูล สถานะปัจจุบัน ของคำร้อง จาก สอน เพื่อส่งไปบันทึกใน ระบบของ สพธอ</wsdl:documentation>
+      <wsdl:input message="tns:putUpdateDataSoapIn" />
+      <wsdl:output message="tns:putUpdateDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="putUpdateMasterData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">แจ้งข้อมูล Master Data เพื่อส่งไปบันทึกใน ระบบของ สพธอ</wsdl:documentation>
+      <wsdl:input message="tns:putUpdateMasterDataSoapIn" />
+      <wsdl:output message="tns:putUpdateMasterDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="putNewVehicle">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">แจ้งข้อมูล รายการยานพาหนะใหม่ เพื่อส่งไปบันทึกใน ระบบของ สพธอ</wsdl:documentation>
+      <wsdl:input message="tns:putNewVehicleSoapIn" />
+      <wsdl:output message="tns:putNewVehicleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="putNewContract">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">แจ้งข้อมูล รายการสัญญาใหม่ เพื่อส่งไปบันทึกใน ระบบของ สพธอ</wsdl:documentation>
+      <wsdl:input message="tns:putNewContractSoapIn" />
+      <wsdl:output message="tns:putNewContractSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="OCSBHttpGet">
+    <wsdl:operation name="putUpdateMasterData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">แจ้งข้อมูล Master Data เพื่อส่งไปบันทึกใน ระบบของ สพธอ</wsdl:documentation>
+      <wsdl:input message="tns:putUpdateMasterDataHttpGetIn" />
+      <wsdl:output message="tns:putUpdateMasterDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="putNewVehicle">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">แจ้งข้อมูล รายการยานพาหนะใหม่ เพื่อส่งไปบันทึกใน ระบบของ สพธอ</wsdl:documentation>
+      <wsdl:input message="tns:putNewVehicleHttpGetIn" />
+      <wsdl:output message="tns:putNewVehicleHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="putNewContract">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">แจ้งข้อมูล รายการสัญญาใหม่ เพื่อส่งไปบันทึกใน ระบบของ สพธอ</wsdl:documentation>
+      <wsdl:input message="tns:putNewContractHttpGetIn" />
+      <wsdl:output message="tns:putNewContractHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="OCSBHttpPost">
+    <wsdl:operation name="putUpdateMasterData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">แจ้งข้อมูล Master Data เพื่อส่งไปบันทึกใน ระบบของ สพธอ</wsdl:documentation>
+      <wsdl:input message="tns:putUpdateMasterDataHttpPostIn" />
+      <wsdl:output message="tns:putUpdateMasterDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="putNewVehicle">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">แจ้งข้อมูล รายการยานพาหนะใหม่ เพื่อส่งไปบันทึกใน ระบบของ สพธอ</wsdl:documentation>
+      <wsdl:input message="tns:putNewVehicleHttpPostIn" />
+      <wsdl:output message="tns:putNewVehicleHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="putNewContract">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">แจ้งข้อมูล รายการสัญญาใหม่ เพื่อส่งไปบันทึกใน ระบบของ สพธอ</wsdl:documentation>
+      <wsdl:input message="tns:putNewContractHttpPostIn" />
+      <wsdl:output message="tns:putNewContractHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="OCSBSoap" type="tns:OCSBSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="putUpdateData">
+      <soap:operation soapAction="http://tempuri.org/putUpdateData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putUpdateMasterData">
+      <soap:operation soapAction="http://tempuri.org/putUpdateMasterData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putNewVehicle">
+      <soap:operation soapAction="http://tempuri.org/putNewVehicle" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putNewContract">
+      <soap:operation soapAction="http://tempuri.org/putNewContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="OCSBSoap12" type="tns:OCSBSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="putUpdateData">
+      <soap12:operation soapAction="http://tempuri.org/putUpdateData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putUpdateMasterData">
+      <soap12:operation soapAction="http://tempuri.org/putUpdateMasterData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putNewVehicle">
+      <soap12:operation soapAction="http://tempuri.org/putNewVehicle" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putNewContract">
+      <soap12:operation soapAction="http://tempuri.org/putNewContract" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="OCSBHttpGet" type="tns:OCSBHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="putUpdateMasterData">
+      <http:operation location="/putUpdateMasterData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putNewVehicle">
+      <http:operation location="/putNewVehicle" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putNewContract">
+      <http:operation location="/putNewContract" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="OCSBHttpPost" type="tns:OCSBHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="putUpdateMasterData">
+      <http:operation location="/putUpdateMasterData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putNewVehicle">
+      <http:operation location="/putNewVehicle" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putNewContract">
+      <http:operation location="/putNewContract" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="OCSB">
+    <wsdl:port name="OCSBSoap" binding="tns:OCSBSoap">
+      <soap:address location="http://mock.tonproject.com/services/ocsb.asmx" />
+    </wsdl:port>
+    <wsdl:port name="OCSBSoap12" binding="tns:OCSBSoap12">
+      <soap12:address location="http://mock.tonproject.com/services/ocsb.asmx" />
+    </wsdl:port>
+    <wsdl:port name="OCSBHttpGet" binding="tns:OCSBHttpGet">
+      <http:address location="http://mock.tonproject.com/services/ocsb.asmx" />
+    </wsdl:port>
+    <wsdl:port name="OCSBHttpPost" binding="tns:OCSBHttpPost">
+      <http:address location="http://mock.tonproject.com/services/ocsb.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

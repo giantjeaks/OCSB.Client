@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xfa:data xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"
+><form1
+><subf_exporter
+><txt_exp_name
+>บริษัท จงเจริญพาณิชย์ จำกัด</txt_exp_name
+><txt_exp_addr
+>501 ถ.พุทธรักษา ตำบลท้ายบ้านใหม่ อำเภอเมือง&#xD;จังหวัดสมุทรปราการ 10270</txt_exp_addr
+><subf_taxid
+><txt_taxid
+>0127864239158</txt_taxid
+></subf_taxid
+></subf_exporter
+><subf_receiver
+><txt_rec_name
+>Sunny Logistic Co., Ltd</txt_rec_name
+><txt_rec_addr
+>67 Ayala Avenue, Makati City PHILIPPINES</txt_rec_addr
+></subf_receiver
+><subf_buyer
+><txt_buy_name
+>Bake Cafe Group Limited</txt_buy_name
+><txt_buy_addr
+>6D Greens Blvd. Myrtle Beach South Carolina&#xD;UNITED STATES</txt_buy_addr
+></subf_buyer
+><subf_receive_no
+><txt_receive_no
+>010/1547/56</txt_receive_no
+></subf_receive_no
+><subf_agent
+><txt_agent_name
+>นายวันชัย ศุภนันทวงศ์ (ผู้รับมอบอำนาจ)</txt_agent_name
+><txt_agent_addr
+>328 ถ.บางนา-ตราด แขวงบางนา เขตบางนา กทม. 10260</txt_agent_addr
+></subf_agent
+><subf_buyer_ctry
+><list_buy_ctry
+>US</list_buy_ctry
+></subf_buyer_ctry
+><subf_dest_ctry
+><list_dest_ctry
+>US</list_dest_ctry
+></subf_dest_ctry
+><subf_exp_date
+><dt_exp_date
+>19 ตุลาคม 2556</dt_exp_date
+><radio_exp_via
+>2</radio_exp_via
+></subf_exp_date
+><subf_custom_officer xfa:dataNode="dataGroup"
+/><subf_vehicle_name
+><txt_rec_name
+>Cruise 913</txt_rec_name
+></subf_vehicle_name
+><subf_port_name
+><txt_rec_name
+>ท่าเรือแหลมฉบัง</txt_rec_name
+></subf_port_name
+><subf_expire_date
+><txt_taxid
+/><txt_expire_date
+>13 พ.ย. 2556</txt_expire_date
+></subf_expire_date
+><subf_exchange_rate
+><txt_exchange_rate
+>29.62</txt_exchange_rate
+></subf_exchange_rate
+><subf_currency
+><txt_currency
+>เหรียญสหรัฐ</txt_currency
+></subf_currency
+><subf_detail_1
+><txt_detail_1
+>1. น้ำตาลทรายขาวบริสุทธิ์ที่ผลิตเป็นสินค้าที่มีกำเนิดในประเทศไทย บรรจุอยู่ในกระสอบพลาสติกสังเคราะห์ กระสอบละ 100 กก.</txt_detail_1
+></subf_detail_1
+><subf_weight_1
+><txt_weight_1
+>300 เมตริกตัน</txt_weight_1
+></subf_weight_1
+><subf_tariff_1
+><txt_tariff_1
+>17019911090</txt_tariff_1
+></subf_tariff_1
+><subf_unitprice_1
+><txt_unitprice_1
+>570 /MT</txt_unitprice_1
+></subf_unitprice_1
+><subf_fbovalue_1
+><txt_taxid
+>5,065,020</txt_taxid
+></subf_fbovalue_1
+><subf_detail_2
+><txt_detail_2
+/></subf_detail_2
+><subf_tariff_2
+><txt_tariff_2
+/></subf_tariff_2
+><subf_weight_2
+><txt_weight_2
+/></subf_weight_2
+><subf_unitprice_2
+><txt_unitprice_2
+/></subf_unitprice_2
+><subf_fbovalue_2
+><txt_taxid
+/></subf_fbovalue_2
+><subf_condition
+><txt_permit_condition
+>เป็นไปตามระเบียบและหลักเกณฑ์ที่กรมการค้าต่างประเทศกำหนดไว้&#xD;(1.) ส่งออกตามสัญญาเลขที่ 10510-ฺBK ลงวันที่ 6 พฤษภาคม 2556&#xD;(2.) BY CASH AGAINST DOCUMENTS (CAD).&#xD;(3.) กน.10 เลขที่ 10/1547/56 โควตาปี 2555/2556 ลงวันที่ 14 ตุลาคม 2556</txt_permit_condition
+></subf_condition
+><subf_signature
+><dt_issue
+>14 ตุลาคม 2556</dt_issue
+><txt_sig_name
+>นางสาวอินทิรา วงศ์วิวัฒน์</txt_sig_name
+><txt_sig_title
+>นักวิชาการอุตสาหกรรมชำนาญการ</txt_sig_title
+></subf_signature
+><txt_exp_name
+>น้ำตาลทราย</txt_exp_name
+></form1
+><FSTEMPLATE_
+>/Applications/JaaApplication/1.0/Form/NSW/อ2.xdp</FSTEMPLATE_
+><FSFORMQUERY_
+>/Applications/JaaApplication/1.0/Form/NSW/อ2.xdp</FSFORMQUERY_
+><FSTRANSFORMATIONID_
+>PDFForm</FSTRANSFORMATIONID_
+><FSTARGETURL_
+/><FSAWR_
+/><FSWR_
+/><FSCRURI_
+>repository://</FSCRURI_
+><FSBASEURL_
+/></xfa:data
+>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://certificate.teda.th/service" targetNamespace="http://certificate.teda.th/service" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="https://certificate.teda.th/xsd.wsdl" namespace="http://certificate.teda.th/service" />
+    </xsd:schema>
+  </types>
+  <message name="generationReqeust">
+    <part name="parameters" element="tns:generationReqeust" />
+  </message>
+  <message name="generationReqeustResponse">
+    <part name="parameters" element="tns:generationReqeustResponse" />
+  </message>
+  <portType name="CertificateGenerationService">
+    <operation name="generationReqeust">
+      <input xmlns:ns1="http://www.w3.org/2007/05/addressing/metadata" ns1:Action="http://certificate.teda.th/service/CertificateGenerationService/generationReqeustRequest" message="tns:generationReqeust" />
+      <output xmlns:ns2="http://www.w3.org/2007/05/addressing/metadata" ns2:Action="http://certificate.teda.th/service/CertificateGenerationService/generationReqeustResponse" message="tns:generationReqeustResponse" />
+    </operation>
+  </portType>
+</definitions>

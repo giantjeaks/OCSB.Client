@@ -1,0 +1,131 @@
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Client.exe.config
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Client.exe.manifest
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Client.application
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Client.exe
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Client.pdb
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.Core.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.WinForms.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CertificateGenerationConnector.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\itextsharp.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\NtiEncryptDataLibray.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Configuration.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Data.DataSetExtensions.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Data.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Deployment.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Drawing.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Net.Http.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Runtime.Serialization.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Security.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.ServiceModel.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Web.Extensions.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Windows.Forms.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Xml.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Xml.Linq.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\TeDATime.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.WinForms.pdb
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.WinForms.xml
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.pdb
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.xml
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.Core.pdb
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.Core.xml
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.pdb
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\itextsharp.xml
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Interop.AcroPDFLib.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\AxInterop.AcroPDFLib.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Interop.AcroPDFLib.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\AxInterop.AcroPDFLib.dll
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.csproj.ResolveComReference.cache
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.frmExportXML.resources
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.frmExportXML_A2Print.resources
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.frmpass.resources
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.frmSignDS.resources
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.frmSignReason.resources
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.Main.resources
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.Properties.Resources.resources
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.csproj.GenerateResource.cache
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.csproj.CoreCompileInputs.cache
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.exe.manifest
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.application
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.csproj.CopyComplete
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.exe
+D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.pdb
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Client.exe.config
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Interop.AcroPDFLib.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\AxInterop.AcroPDFLib.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.csproj.ResolveComReference.cache
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.exe
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.pdb
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Client.exe.manifest
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Client.application
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Client.exe
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Client.pdb
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.Core.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.WinForms.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CertificateGenerationConnector.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\itextsharp.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\NtiEncryptDataLibray.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Configuration.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Data.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Deployment.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Drawing.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Net.Http.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Runtime.Serialization.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Security.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.ServiceModel.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Web.Extensions.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Windows.Forms.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Xml.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\System.Xml.Linq.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\TeDATime.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.WinForms.pdb
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.WinForms.xml
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.pdb
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.xml
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.Core.pdb
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.Core.xml
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.pdb
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\itextsharp.xml
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Interop.AcroPDFLib.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\AxInterop.AcroPDFLib.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.frmExportXML.resources
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.frmExportXML_A2Print.resources
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.frmpass.resources
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.frmSignDS.resources
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.frmSignReason.resources
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.Main.resources
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\SugarSystem.Client.Properties.Resources.resources
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.csproj.GenerateResource.Cache
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.exe.manifest
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.application
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Antlr3.Runtime.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\itextsharp.licensekey.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\itextsharp.pdfa.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\itextsharp.xfaworker.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\itextsharp.xmlworker.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Jint.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\log4net.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Newtonsoft.Json.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\NTi.Utility.Library.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\OCSB_Client.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Syncfusion.Compression.Base.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Syncfusion.Licensing.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Syncfusion.Pdf.Base.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\O2S.Components.PDF4NET.dll
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\OCSB_Client.pdb
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Antlr3.Runtime.pdb
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\log4net.xml
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Newtonsoft.Json.pdb
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Newtonsoft.Json.xml
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\NTi.Utility.Library.pdb
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\NTi.Utility.Library.xml
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Syncfusion.Compression.Base.xml
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\Syncfusion.Pdf.Base.xml
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\bin\x86\Debug\O2S.Components.PDF4NET.xml
+E:\Workspace\OCSB\App\OCSB Borwser Client V3.0.0_TEST\obj\x86\Debug\Client.csprojResolveAssemblyReference.cache

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://certificate.teda.th/service" targetNamespace="http://certificate.teda.th/service" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="certificateGenerationResponse" type="tns:certificateGenerationResponse" />
+  <xs:element name="generationReqeust" type="tns:generationReqeust" />
+  <xs:element name="generationReqeustResponse" type="tns:generationReqeustResponse" />
+  <xs:complexType name="generationReqeust">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="certificateGenerationRequest" type="tns:certificateGenerationRequest" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="certificateGenerationRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="certificateReferenceNumber" type="xs:string" />
+      <xs:element minOccurs="0" name="formOID" type="xs:string" />
+      <xs:element minOccurs="0" name="hashValue" type="xs:string" />
+      <xs:element minOccurs="0" name="hashAlgorithm" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="generationReqeustResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:certificateGenerationResponse" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="certificateGenerationResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:response">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="response" abstract="true">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="statusCode" type="xs:string" />
+      <xs:element minOccurs="0" name="statusMessage" type="xs:string" />
+      <xs:element minOccurs="0" name="serviceType" type="xs:string" />
+      <xs:element minOccurs="0" name="requestTime" type="xs:string" />
+      <xs:element minOccurs="0" name="responseTime" type="xs:string" />
+      <xs:element minOccurs="0" name="responseData" type="xs:anyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="certificateGenerationResponseObject">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="serialNumber" type="xs:string" />
+      <xs:element minOccurs="0" name="certificateReferenceNumber" type="xs:string" />
+      <xs:element minOccurs="0" name="certificateIssueDate" type="xs:string" />
+      <xs:element minOccurs="0" name="certificateForm" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

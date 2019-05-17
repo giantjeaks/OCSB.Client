@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cd091314-86fc-4754-b97b-b279a6ad77a3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://certificate.teda.th/service.wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="namespace.wsdl" MetadataType="Wsdl" ID="f01394dd-6441-4b35-8a32-85b279c0bb10" SourceId="1" SourceUrl="https://certificate.teda.th/namespace.wsdl" />
+    <MetadataFile FileName="CertificateGenerationService.wsdl" MetadataType="Wsdl" ID="fc290d6b-423c-446f-8f3f-ed5816634068" SourceId="1" SourceUrl="https://certificate.teda.th/service.wsdl" />
+    <MetadataFile FileName="xsd.xsd" MetadataType="Schema" ID="cc545a1a-ec6a-4f84-990c-08f84a318e31" SourceId="1" SourceUrl="https://certificate.teda.th/xsd.wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

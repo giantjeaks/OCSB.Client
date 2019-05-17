@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>E:\Workspace\OCSB\Websites\ExportWeb\publish\browser\|D:\Work\OCSB\OCSB PDFSign and Browser\Production\OCSB Browser - Publish\|D:\Work\OCSB\dev.export.ocsb.go.th\Website\publish\browser\|ftp://127.0.0.1/browser/|ftp://dev.export.ocsb.go.th/browser/</PublishUrlHistory>
+    <InstallUrlHistory>http://test.export.ocsb.go.th/publish/browser/|http://export.ocsb.go.th/publish/browser/|http://demo.exportocsb.com/publish/browser/|http://demo.export.ocsb.go.th/publish/browser/|http://dev.export.ocsb.go.th/publish/browser/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>
